@@ -11,7 +11,6 @@ irssi
 
 bash
 
-ncmpcpp (only to connect to local network server and change bindings for st)
 ### Screenshots:
 coming sometime before the Amiga release of Daikatana
 ### Known issues:
