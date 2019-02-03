@@ -1,0 +1,78 @@
+
+! colors
+
+! special
+URxvt.depth: 32
+!URxvt.background: rgba:1000/3000/3000/c000
+URxvt.background: rgba:0400/0c00/0c00/8000
+*.alpha: 128
+*.foreground:   #a0b0b0
+*.background:   #040c0c
+*.cursorColor:  #a0b0b0
+
+! black
+*.color0:       #040808
+*.color8:       #102020
+
+! red
+*.color1:       #c01818
+*.color9:       #ff4040
+
+! green
+*.color2:       #00b050
+*.color10:      #00f060
+
+! yellow
+*.color3:       #c0c000
+*.color11:      #fffd00
+
+! blue
+*.color4:       #4060d0
+*.color12:      #60a0ff
+
+! magenta
+*.color5:       #f020f0
+*.color13:      #ff80ff
+
+! cyan
+*.color6:       #0dc0c0
+*.color14:      #14ffff
+
+! white
+*.color7:       #b0c0c0
+*.color15:      #d0ffff
+
+
+! urxvt settings
+
+!URxvt.font: xft:ProggyTiny.pcf:regular:size=8,8
+!URxvt.font: xft:creep:size=7
+!URxvt.font: xft:scientifica:regular:size=7
+!URxvt.font: xft:tewi:regular:size=8
+URxvt.font: xft:Hack:regular:size=9
+!URxvt.letterSpace: 1
+!URxvt.lineSpace: -1
+URxvt.internalBorder: 4
+URxvt.scrollBar: false
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
+! global settings
+
+*.font: Hack:regular:size=9
+Xcursor.theme: Breeze
+Xcursor.size: 16
+
+! font rendering
+
+Xft.autohint: 1
+Xft.antialias: 1
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+! fake transparency
+
+!URxvt.transparent: true
+!URxvt.shading: 50
