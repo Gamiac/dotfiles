@@ -215,10 +215,10 @@ exec_always --no-startup-id compton -b
 # set window colors to custom style
 
 # Class                |Border |BackGnd|Text   |Indica.|Ch.Bord
-client.focused          #206060 #184848 #c0ffff #c0ffff #206060
-client.focused_inactive #206060 #103030 #c0ffff #c0ffff #184848
-client.unfocused        #184848 #182828 #80a0a0 #c0ffff #184848
-client.placeholder      #184848 #184848 #c0ffff #c0ffff #184848
+client.focused          #c0ffff #184848 #c0ffff #c0ffff #80a0a0
+client.focused_inactive #c0ffff #103030 #c0ffff #c0ffff #406060
+client.unfocused        #80a0a0 #182828 #80a0a0 #c0ffff #406060
+client.placeholder      #80a0a0 #184848 #c0ffff #c0ffff #406060
 
 hide_edge_borders both
 
